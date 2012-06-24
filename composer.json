@@ -1,0 +1,22 @@
+{
+    "name": "fp/payment-check-bundle",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/formapro/FpPaymentCheckBundle",
+    "require": {
+        "jms/payment-core-bundle": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Kotlyar Maksim",
+            "email": "kotlyar.maksim@gmail.com"
+        },
+        {
+            "name": "Community",
+            "homepage": "https://github.com/formapro/FpPaymentCheckBundle/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Fp\\Payment\\CheckBundle": "" }
+    },
+    "target-dir": "Fp/Payment/CheckBundle"
+}
